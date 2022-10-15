@@ -158,6 +158,10 @@ a {
     text-align: center;
 }
 
+.skills {
+    margin-bottom: 110px;
+}
+
 .skl-txt {
     text-align: center;
 }
@@ -177,4 +181,30 @@ a {
     display: flex;
     justify-content: center;
     gap: 128px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 112px 252px 96px 252px;
+    background-color: #F6F6F6;
+}
+
+.div-heading {
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.port-txt {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 45px;
+    margin-bottom: 100px ;
 }
