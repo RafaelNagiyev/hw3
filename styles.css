@@ -171,3 +171,10 @@ a {
     font-family: 'Gilroy-Medium';
     font-size: 18px;
 }
+
+.icons {
+    margin: 83px 252px 0px 252px;
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
