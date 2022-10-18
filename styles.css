@@ -20,7 +20,9 @@ body{
     padding-top: 32px;
     padding-bottom: 32px;
     height: 87px;
-    margin: 0px 250px 0 250px;
+    margin-left: 25%;
+    margin-right: 20%;
+    max-width: 940px;
     border-bottom: 1px solid #828282;
     }
   
@@ -35,7 +37,9 @@ a {
 .footer {
     bottom: 0;
     height: 622px;
-    width: 100%;
+    margin-left: 25%;
+    margin-right: 20%;
+    max-width: 940px;
     padding: 50px;
     display: grid;
     justify-content: center;
@@ -88,6 +92,11 @@ a {
 
 }
 
+.hero-block {
+    margin-left: 25%;
+    margin-right: 20%;
+    max-width: 940px;
+}
 
 .hero-texts {
     width: 100%;
@@ -139,6 +148,8 @@ a {
     margin-bottom: 90px;
     padding-bottom: 100px;
     padding-top: 130px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .abt-m {
@@ -169,20 +180,26 @@ a {
     font-size: 18px;
 }
 
+.skills {
+    margin-bottom: 110px;
+    margin-left: 25%;
+    margin-right: 20%;
+    max-width: 940px;   
+}
+
 .icons {
     margin-top: 83px;
+ 
     display: flex;
-<<<<<<< HEAD
     justify-content: space-around;
     
 }
 
 .portfolio {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 112px 252px 96px 252px;
     background-color: #F6F6F6;
 }
 
@@ -201,8 +218,12 @@ a {
     text-decoration-line: underline;
     margin-top: 45px;
     margin-bottom: 100px ;
-=======
+
     justify-content: center;
     gap: 128px;
->>>>>>> parent of ca97085 (portolio done)
+}
+
+.port-img {
+    max-width: 940px;
+    max-height: 510px;
 }
