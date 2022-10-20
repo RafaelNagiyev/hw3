@@ -189,12 +189,13 @@ a {
 
 .icons {
     margin-top: 83px;
- 
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
     display: flex;
-    justify-content: space-around;
-    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
-
 .portfolio {
     display: flex;
     align-items: center;
@@ -226,4 +227,19 @@ a {
 .port-img {
     max-width: 940px;
     max-height: 510px;
+}
+.skpic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stars{
+    display: flex;
+    gap: 10px;
+}
+.skpic p{
+    text-align: center;
+    color: #828282;
+    margin: 0px;
+    padding: 24px 0px 40px 0px;
 }
