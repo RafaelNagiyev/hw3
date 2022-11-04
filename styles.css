@@ -1,11 +1,12 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-body{
-    position: relative;
-    height: fit-content;
-    margin: 0 auto ;
-    justify-content: center;
+body {
+  position: relative;
+  height: fit-content;
+  margin: 0 auto;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .container {
@@ -37,148 +38,143 @@ body{
 
 
 .header {
-    font-family: 'Gilroy-Bold', sans-serif;
-    display: flex;
-    justify-content: space-between; 
-    padding-top: 32px;
-    padding-bottom: 32px;
-    height: 87px;
-    margin: 0px 250px 0 250px;
-    border-bottom: 1px solid #828282;
-    }
-  
-a {
-    
-    color: #000;
-    text-decoration: none;
+  font-family: "Gilroy-Bold", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 87px;
+  margin: 0px auto;
+  max-width: 940px;
+  border-bottom: 1px solid #828282;
+  align-items: center;
 }
 
-
+a {
+  color: #828282;
+  text-decoration: none;
+}
 
 .footer {
-    bottom: 0;
-    height: 622px;
-    width: 100%;
-    padding: 50px;
-    display: grid;
-    justify-content: center;
-    align-self: center;
-    }
+  bottom: 0;
+  height: 622px;
+  margin: 0px auto;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+}
 
 .socials {
-    margin-top: 55px;
-    display: flex;
-    gap: 50px;
+  margin-top: 55px;
+  display: flex;
+  gap: 50px;
 }
 
 .contacts {
-    height: fit-content;
+  height: fit-content;
 }
 
 .contacts p {
-    font-family: 'Gilroy-Bold';
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-    margin-bottom: 0;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .btn-text p {
-    font-family: 'Gilroy-Medium';
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin-top: 0;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 0;
 }
 
 .btn {
-    height: 42px;
-    width: 180px;
-    border-radius: 50px;
-    margin-left: 20%;
-    background-color: #000;
-    color: white;
-    font-family: Gilroy-Bold;
-    size: 18px;
+  height: 42px;
+  width: 180px;
+  border-radius: 50px;
+  margin-left: 20%;
+  background-color: #000;
+  color: white;
+  font-family: Gilroy-Bold;
+  size: 18px;
 }
 
-.last-text p{
-    font-family: 'Gilroy-Medium';
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #828282;
-
+.last-text p {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
 }
 
 .hero-block {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 250px 0 250px;
+  margin: 0px auto;
+  max-width: 940px;
 }
 
 .hero-texts {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 50px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
 }
 
 .hero-name {
-    font-family: 'Gilroy-Bold';
-    margin: 0;
+  font-family: "Gilroy-Bold";
+  margin: 0;
 }
 
 .hero-age {
-    font-family: 'Gilroy-Medium';
-    font-size: 18px;
-    line-height: 22px;
-    margin: 0;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
 }
 
 .lang-btn {
-    border: 0;
-    background-color: white;
-    font-family: 'Gilroy-Bold';
-    font-size: 16px;
-    padding: 0;
+  border: 0;
+  background-color: white;
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  padding: 0;
 }
 
 .right-btn {
-    border-left: 3px solid black;
-    padding-left: 4px;
+  border-left: 3px solid black;
+  padding-left: 4px;
 }
 
 .eng-ru {
-    transform: rotate(-90deg);
-    padding-top: 41px;
+  transform: rotate(-90deg);
+  padding-top: 41px;
 }
 
 .avatar {
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .about-me {
-    background-color: #F6F6F6;
-    margin-bottom: 90px;
-    padding-bottom: 100px;
-    padding-top: 130px;
+  background-color: #f6f6f6;
+  margin-bottom: 90px;
+  padding-bottom: 100px;
+  padding-top: 130px;
 }
 
 .abt-m {
-    font-family: 'Gilroy-Bold';
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
 }
 
 .abt-txt {
-    font-family: 'Gilroy-Medium';
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
 }
 
 .skills {
@@ -186,22 +182,108 @@ a {
 }
 
 .skl-txt {
-    text-align: center;
+  text-align: center;
 }
 
 .txt_1 {
-    font-family: 'Gilroy-Bold';
-    font-size: 34px;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
 }
 
 .txt_2 {
-    font-family: 'Gilroy-Medium';
-    font-size: 18px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+}
+
+.skills {
+  margin: 0px auto 110px auto;
+  max-width: 940px;
 }
 
 .icons {
-    margin: 83px 252px 0px 252px;
+  margin-top: 83px;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.div-heading {
+  margin: 0px;
+  padding: 112px 0px 47px 0px;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+}
+
+.port-txt {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 45px;
+  margin-bottom: 100px;
+
+  justify-content: center;
+  gap: 128px;
+}
+
+.port-img {
+  max-width: 940px;
+  max-height: 510px;
+  width: inherit;
+  padding: 0px 30px 0px 30px;
+}
+.skpic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stars {
+  display: flex;
+  gap: 10px;
+}
+.skpic p {
+  text-align: center;
+  color: #828282;
+  margin: 0px;
+  padding: 24px 0px 40px 0px;
+}
+a:first-child {
+  color: #070707;
+}
+.avatarPhone{
+    display: none;
+}
+@media (max-width: 660px) {
+  .desktop-only {
+    display: none;
+  }
+  .hero-texts {
+    margin: 65px 0px 0px 26px;
+    height: 150px;
     display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .icons {
+    gap: 85px;
+    flex-direction: column;
+}
+.avatarPhone {
+    display: flex;
+    padding: 0px 30px 80px 30px;
     justify-content: center;
     gap: 128px;
 }
@@ -230,4 +312,5 @@ a {
     text-decoration-line: underline;
     margin-top: 45px;
     margin-bottom: 100px ;
+}
 }

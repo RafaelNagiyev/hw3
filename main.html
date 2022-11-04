@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
-    <div class="container">
-        <header class="header">       
+    <div>
+        <header class="header desktop-only">       
             <a href="#">Home</a>
             <a href="#">About me</a>
             <a href="#">Skills</a>
@@ -23,12 +24,23 @@
             <div class="hero-texts">
                 <h1 class="hero-name"> Denis <br> Novik</h1>
                 <p class="hero-age">UX | UI designer <br> 24 years old, Minsk</p>
-                    <div class="eng-ru" >
+                    <div class="eng-ru desktop-only" >
                         <button type="button" class="lang-btn">RU</button>
-                        <button type="button" class="lang-btn right-btn" >ENG</button>
+                        <button type="button" class="lang-btn right-btn" >ENG</button>                        
                     </div>
+               
+                   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links --> 
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
+                         <i class="fa fa-bars"></i> 
+                    </a>
+                
             </div>
-            <img src="./image/heropic.png" alt="guy with hat" class="avatar">
+            <div class="avatar desktop-only">
+                <img src="./image/heropic.png" alt="guy with hat">
+            </div>
+            <div class="avatarPhone">
+                <img src="./image/heroAvatar.png" alt="guy with hat">
+            </div>
         </div>
 
         <div class="about-me">
@@ -53,10 +65,50 @@
                 <p class="txt_2">I work in such programs as</p>
             </div>  
                 <div class="icons">
-                    <img src="./image/photoshop.png" alt="ps knowledge">
-                    <img src="./image/illustrator.png" alt="ai knowledge">
-                    <img src="./image/adobe-ae.png" alt="adobe-ae knowledge">
-                    <img src="./image/figma-pic.png" alt="figma knowledge">
+                    <div class="skpic">
+                        <img src="./image/PS.png" alt="skills-img">
+                        <p>Adobe<br>Photoshob</p>
+                        <div class="stars">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/WhiteStar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="skpic">
+                        <img src="./image/AI.png" alt="skills-img">
+                        <p>Adobe<br>Illustrator</p>
+                        <div class="stars">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/WhiteStar.png" alt="">
+                            <img src="./image/WhiteStar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="skpic">
+                        <img src="./image/AE.png" alt="skills-img">
+                        <p>Adobe<br>After Effects</p>
+                        <div class="stars">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/WhiteStar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="skpic">
+                        <img src="./image/FIGMA.png" alt="skills-img">
+                        <p>Figma</p> <br>
+                        <div class="stars">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/BlackStar.png" alt="">
+                            <img src="./image/WhiteStar.png" alt="">
+                        </div>
+                    </div>
                 </div>
         </div>
 
